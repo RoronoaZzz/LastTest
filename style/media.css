@@ -239,6 +239,11 @@
         width: 69px;
     }
 
+    .primary {
+        top: 16px;
+        left: 20px;
+    }
+
 }
 
 
@@ -268,7 +273,6 @@
 
     .header__btn--choice {
         margin-right: 0;
-        width: 130px;
         height: 43px;
     }
 
