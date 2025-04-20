@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCHAPIN</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script defer src="./src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+        type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/smooth-scrollbar/dist/smooth-scrollbar.css">
+        <script src="https://cdn.jsdelivr.net/npm/smooth-scrollbar"></script>
+        <script defer> 
+        
+        Scrollbar.initAll(),{
+        damping: 0.1,
+        thumbMinSize: 20
+    }; 
+        </script>
+
+</head>
+
+
+<body>
+    <h1 class="hidden">Купить квартиры и дома с чистовой отделкой, балконами, лоджиями и террасами.</h1>
+    <header class="header">
+        <div class="container header--container">
+            <div class="burger flex">
+                <div class="burger__wrapper">
+                    <div class="burger__wrapper--line"></div>
+                    <div class="burger__wrapper--line"></div>
+                    <div class="burger__wrapper--line"></div>
+                </div>
+                <button class="burger__btn btn-reset">МЕНЮ</button>
+            </div>
+
+
+
+
+            <div class="header__btn--choice blog-button btn--arrow">
+                <div class="primary text">ВЫБРАТЬ КВАРТИРУ</div>
+                <div class="secondary text">ВЫБРАТЬ КВАРТИРУ</div>
+            </div>
+
+
+
+            <a href="#" class="logo">
+                <img src="./img/logo.svg" class="logo__img" alt="Логотип">
+            </a>
+
+
+            <div class="hidden phone--img"></div>
+
+
+            <a href="tel:+79123456789" class="phone">+7 495 527 21 21</a>
+
+
+            <button class="btn-reset header__btn--call open-modal-btn">ЗАКАЗАТЬ ЗВОНОК </button>
+        </div>
+    </header>
+
+    <main id="main" data-scrollbar>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero--img"></div>
+                <div class="hero__bottom flex">
+                    <p class="hero__bottom--descr">ДОМ БИЗНЕС-КЛАССА<br>ДЛЯ ЦЕНИТЕЛЕЙ РОСКОШИ</p>
+                    <h2 class="hero__bottom--title">INCHAPIN</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="container container--table__project flex">
+                <div class="project__left">
+                    <div class="wrapper--bagg">
+                        <h3 class="project__title--left">О ПРОЕКТЕ</h3>
+
+                        <div class="image-container">
+                            <img src="./img/project-left.jpg" class="project__left--house" alt="Project House">
+                            <img src="./img/project-arrow.svg" class="project__left--arrow" alt="Scroll Arrow">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project__right container--tele">
+
+                    <div class="project__right--element">
+                        <img src="./img/solid-right.svg" alt="SOLID">
+                    </div>
+
+
+                    <h3 class="project__right--title">
+                        УЮТНОЕ И&nbsp;БЕЗОПАСНОЕ<br class="wr-hid"> ПРОСТРАНСТВО ДЛЯ СЧАСТЛИВОЙ, <br> <span
+                            class="decor-text">СПОКОЙНОЙ И&nbsp;РАЗМЕРЕННОЙ <br> ЖИЗНИ</span>
+                    </h3>
+
+
+                    <p class="project__right--descr">
+                        <span class="decor-text">КВАРТИРЫ ОТ&nbsp;65&nbsp;ДО 356 М²&nbsp;С ЧИСТОВОЙ ОТДЕЛКОЙ,</span>
+                        <br>
+                        БАЛКОНАМИ, ЛОДЖИЯМИ И&nbsp;ТЕРРАСАМИ В&nbsp;СОБСТВЕННОЙ <br class="wr-hid">
+                        ЗАКРЫТОЙ ОХРАНЯЕМОЙ ТЕРРИТОРИИ.
+                    </p>
+
+
+                    <div class="project__right--video">
+                        <div class="info-video">
+                            <p class="info-video__descr">ВИДЕО О ПРОЕКТЕ</p>
+                            <span class="info-video__time">1:25 минут</span>
+                        </div>
+
+                        <div class="solid--video"></div>
+
+                        <div class="button-video">
+                            <div class="video--background">
+                                <img src="./img/play.jpg" class="video" alt="Видео Проекта">
+                                <img src="./img/player.svg" class="video--player" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer"></footer>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content" id="modal-content">
+            <div class="modal-body flex">
+                <h3 class="title__modal">ЗАКАЗАТЬ ЗВОНОК</h3>
+                <form class="myForm">
+                    <div class="input-with-placeholder">
+                        <input type="text" id="username1" class="input--span" required />
+                        <label for="username1" class="placeholder">ВАШЕ ИМЯ</label>
+                    </div>
+                    <div class="input-with-placeholder">
+                        <input type="text" id="username2" class="input--span phone--mask" name="phone" required />
+                        <label for="username2" class="placeholder">ТЕЛЕФОН</label>
+                    </div>
+                    <div class="input-with-placeholder">
+                        <input type="text" id="username3" class="input--span" required />
+                        <label for="username3" class="placeholder">E-MAIL</label>
+                    </div>
+
+                    <p class="agreement">Нажимая на кнопку «Отправить», вы ознакомлены <br> и соглашаетесь с <a href="#"
+                            class="agreement--link">политикой обработки персональных данных</a></p>
+
+                    <button class="btn--modal btn-reset">ОТПРАВИТЬ</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="video-container hidden">
+        <video id="myVideo" controls>
+            <source src="./img/video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- <script> Scrollbar.initAll(); </script> -->
+
+</body>
+
+</html>

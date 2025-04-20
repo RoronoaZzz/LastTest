@@ -1,0 +1,510 @@
+@media (max-width: 1769px) {
+    .container {
+        max-width: 1360px;
+    }
+
+    /* Header */
+
+    .header {
+        padding-top: 29px;
+    }
+
+    .logo {
+        height: 25px;
+        width: 155px;
+        margin-right: 55px;
+    }
+
+    .burger {
+        gap: 12px;
+        margin-right: 34px;
+    }
+
+    .burger__btn {
+        font-size: 13px;
+    }
+
+
+    .header__btn--choice {
+        font-size: 13px;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+
+    .header__btn--call {
+        font-size: 13px;
+    }
+
+
+    /* HERO */
+
+
+    .hero {
+        padding-top: 8px;
+        padding-bottom: 55px;
+    }
+
+    .hero--img {
+        background-image: url('../img/hero-1769.jpg');
+        max-width: 1360px;
+        height: 506px;
+        margin-bottom: 40px;
+    }
+
+    .hero__bottom--descr {
+        font-size: 26px;
+    }
+
+    .hero__bottom--title {
+        font-size: 161px;
+    }
+
+
+    /* PROJECT */
+
+
+    .project {
+        padding-top: 45px;
+    }
+
+
+    .project__left {
+        margin-right: 222px;
+    }
+
+    .project__title--left {
+        margin-bottom: 33px;
+        font-size: 11px;
+    }
+
+    .project__left--house {
+        min-width: 567px;
+        height: 720px;
+    }
+
+    .project__left--arrow {
+        max-width: 200px;
+        transform: translate(-50%, -54%);
+    }
+
+
+    .project__right--title {
+        font-size: 26px;
+        margin-bottom: 96px;
+    }
+
+    .project__right--descr {
+        font-size: 16px;
+    }
+
+    .info-video__descr {
+        font-size: 14px;
+    }
+
+
+    .info-video__time {
+        font-size: 14px;
+    }
+
+    .video {
+        width: 186px;
+    }
+
+    .video--player {
+        width: 110px;
+    }
+
+    .project__right--element {
+        max-width: 49px;
+        margin-bottom: 45px;
+    }
+
+    .solid--video {
+        width: 109px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .burger {
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+
+    .burger__btn {
+        font-size: 12px;
+    }
+
+    .header__btn--choice {
+        width: 203px;
+        height: 43px;
+        font-size: 12px;
+    }
+
+    .phone {
+        font-size: 13px;
+    }
+
+    .header__btn--call {
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding-bottom: 73px;
+    }
+
+    .hero--img {
+        background-image: url('../img/hero-1280.jpg');
+        max-width: 964px;
+        height: 411px;
+        margin-bottom: 35px;
+    }
+
+    .hero__bottom--descr {
+        font-size: 19px;
+    }
+
+    .hero__bottom--title {
+        font-size: 125px;
+    }
+
+
+
+    /* PROJECT */
+
+    .project__left {
+        margin-right: 152px;
+    }
+
+    .project__left--house {
+        min-width: 408px;
+        height: 514px;
+    }
+
+    .project__title--left {
+        font-size: 11px;
+        margin-bottom: 22px;
+    }
+
+    .project__left--arrow {
+        max-width: 148px;
+    }
+
+    .project__right--title {
+        font-size: 19px;
+        margin-bottom: 70px;
+    }
+
+    .project__right--descr {
+        font-size: 12px;
+        margin-bottom: 66px;
+    }
+
+    .info-video__descr {
+        font-size: 10px;
+    }
+
+    .info-video__time {
+        font-size: 13px;
+    }
+
+    .video {
+        max-width: 133px;
+        max-height: 133px;
+    }
+
+    .video--player {
+        max-width: 79px;
+    }
+
+    .project__right--element {
+        max-width: 35px;
+        margin-bottom: 31px;
+    }
+
+    .solid--video {
+        width: 69px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1023px) {
+
+    .container {
+        max-width: 688px;
+    }
+
+    .wrapper--bagg {
+        position: absolute;
+        right: 63%;
+        bottom: -1%;
+    }
+
+
+    .header {
+        padding-top: 40px;
+    }
+
+
+    .burger {
+        margin-right: 55px;
+    }
+
+    .header__btn--choice {
+        margin-right: 0;
+        width: 130px;
+        height: 43px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .phone--img {
+        display: block;
+        width: 43px;
+        height: 43px;
+        background-image: url('../img/phone.svg');
+        margin-right: 77px;
+    }
+
+
+    .logo {
+        order: 2;
+        margin-right: auto;
+    }
+
+    .header__btn--choice {
+        order: 3;
+    }
+
+    .header__btn--call {
+        display: none;
+    }
+
+    /* HERO */
+
+    .hero {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+
+    .hero--img {
+        background-image: url('../img/hero-1024.jpg');
+        max-width: 688px;
+        height: 487px;
+        margin-bottom: 40px;
+    }
+
+    .hero__bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .hero__bottom--descr {
+        font-size: 26px;
+        margin-bottom: 43px;
+    }
+
+    .hero__bottom--title {
+        font-size: 154px;
+    }
+
+
+    /* PROJECT */
+
+
+    .project {
+        padding-top: 45px;
+    }
+
+    .project__left--house {
+        min-width: 290px;
+        height: 408px;
+    }
+
+
+
+    .container--table__project {
+        position: relative;
+    }
+
+    .project__left--arrow {
+        max-width: 81px;
+    }
+
+    .project__left--arrow {
+        transform: translate(-50%, -63%);
+    }
+
+
+    .wr-hid {
+        display: none;
+    }
+
+    .project__left {
+        margin-right: 168px;
+    }
+
+    .project__right--title {
+        margin-bottom: 26px;
+    }
+
+    .project__right--descr {
+        margin-bottom: 32px;
+    }
+
+    .project__right--element {
+        max-width: 35px;
+        margin-bottom: 26px;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+
+    .container {
+        max-width: 320px;
+    }
+
+    .wrapper--bagg {
+        position: absolute;
+        right: 7%;
+        bottom: 43%;
+    }
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .burger__btn {
+        display: none;
+    }
+
+    .burger {
+        margin-right: 45px;
+    }
+
+    .header__btn--choice {
+        display: none;
+    }
+
+    .logo {
+        order: 0;
+        height: 21px;
+        width: 132px;
+    }
+
+    .burger__wrapper--line {
+        background-color: #000000;
+        width: 29px;
+        margin: 4px 0;
+    }
+
+    .phone--img {
+        background-image: url('../img/phone--blue.svg');
+        background-repeat: no-repeat;
+        width: 41px;
+        height: 41px;
+        margin-right: 0;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .hero--img {
+        background-image: url('../img/hero-320.jpg');
+        min-width: 298px;
+        height: 313px;
+        margin-bottom: 20px;
+    }
+
+
+    .hero__bottom--descr {
+        font-size: 13px;
+        margin-bottom: 24px;
+    }
+
+    .hero__bottom--title {
+        font-size: 66.7px;
+        }
+
+
+    /* PROJECT */
+
+    .project {
+        padding-top: 33px;
+    }
+
+    .project__left {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 640px;
+    }
+
+    .project__title--left {
+        margin-bottom: 10px;
+        margin-right: 25px;
+    }
+
+    .project__left--arrow {
+        max-width: 87px;
+        transform: translate(-75%, -58%);
+        }
+
+    .project__left--house {
+        max-width: 296px;
+        height: 402px;
+    }
+
+    .container--table__project {
+        flex-direction: column;
+        /* padding: 0 420px; */
+    }
+
+    .container--tele {
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .project__right--title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-transform: uppercase;
+    }
+
+    .project__right--descr {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 180%;
+        text-transform: uppercase;
+    }
+
+}
